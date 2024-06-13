@@ -221,6 +221,9 @@ TW_INCLUDE_RESETPROP := true
 TW_HAS_EDL_MODE := true
 TW_INCLUDE_FASTBOOTD := true
 
+# PBRP flags
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
